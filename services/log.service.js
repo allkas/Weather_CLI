@@ -3,11 +3,11 @@ import dedent from "dedent-js";
 
 const printError = (err) => {
     console.log(chalk.bgRed(`Error ${err}`));
-}
+};
 
 const printSuccess = (msg) => {
     console.log(chalk.bgGreen(` Success ${msg}`));
-}
+};
 
 const printHelp = () => {
     console.log(
@@ -18,6 +18,6 @@ const printHelp = () => {
         -t [API_KEY] для сохранения токена
         `
     );
-}
+};
 
 export { printError, printSuccess, printHelp };
